@@ -48,10 +48,17 @@ var talleres = [
   },
   {
     title: ' Mujeres y lesbianismo',
-    description: 'Mitos y prejuicios. Visibilidad. Defensa de la elección de vida. Discriminación, opresión y represión. Relación con la familia de origen. Familias lésbicas. 1 Maternidad. Fertilización asistida.\
-     Salud sexual. Movimientos lésbicos. Activismos y formas de organización y de lucha. Taller Nº7: Mujeres y activismo lésbico Situación actual del activismo lésbico en Argentina, principales avances y obstáculos.\
-      Lesbofobia. Lesbianismo: orientación sexual y/o identidad de género en la construcción como lesboactivistas. Estrategias para la recuperación y transmisión de la historia del lesboactivismo en Argentina.\
-       Relación del activismo lésbico con otros movimientos sociales, movimientos de mujeres, movimientos trans y queer y feminismo. Importancia. Agenda.',
+    description: 'Mitos y prejuicios. Visibilidad. Defensa de la elección de vida. Discriminación, opresión y represión. Relación con la familia de origen. Familias lésbicas. 1 Maternidad.\
+    Fertilización asistida. Salud sexual. Movimientos lésbicos. Activismos y formas de organización y de lucha.',
+    ubication: ' Escuela "Tte. Gral. Pablo Richieri", Moreno 965.',   
+    map:'-32.9439334,-60.6533037',
+    image:'',
+    datetime:1475960400
+  },
+  {
+    title: 'Mujeres y activismo lésbico',
+    description: 'Situación actual del activismo lésbico en Argentina, principales avances y obstáculos. Lesbofobia. Lesbianismo: orientación sexual y/o identidad de género en la construcción como lesboactivistas.\
+    Estrategias para la recuperación y transmisión de la historia del lesboactivismo en Argentina. Relación del activismo lésbico con otros movimientos sociales, movimientos de mujeres, movimientos trans y queer y feminismo. Importancia. Agenda.',
     ubication: ' Escuela "Tte. Gral. Pablo Richieri", Moreno 965.',   
     map:'-32.9439334,-60.6533037',
     image:'',
