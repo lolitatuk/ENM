@@ -670,6 +670,58 @@ var talleres = [
     image:'',
     datetime:1475960400
   },
+  {
+    title: 'Mujeres, deportes y actividad física',
+    description: 'El sexismo y la discriminación contra las mujeres en el ámbito deportivo. Distintas etapas de la vida. Maternidad y deporte. Estereotipos de género en la práctica del deporte en la escuela.\
+    Deporte amateur. Deporte profesional. El deporte como negocio. El deporte como actividad recreativa. Actividad física y salud. Políticas estatales y presupuestos. Espacios barriales, clubes.\
+    Socialización y deportes. ',
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',
+    map:'-32.9439334,-60.6533037',
+    datetime:1475960400
+  },
+  {
+    title: 'Mujeres y medios de comunicación',
+    description: 'El poder de los medios de comunicación. Acceso y participación de las mujeres. Estereotipos e imagen de las mujeres. Construcción machista del discurso mediático. Lenguaje no sexista.\
+    Periodismo con perspectiva de género. Redes. Comunicación, información, desinformación. Derecho a la información. Importancia de los medios en la formación de la opinión pública. Blindajes mediáticos.\
+    Restricciones a la libertad de expresión. Censuras. Monopolios. Medios alternativos y comunitarios de comunicación. Estrategias de comunicación de los grupos de mujeres. Comunicación dirigida por mujeres.\
+    Autonomía. Dificultades. Comunicación y distribución de la producción de colectivos de mujeres. Influencia de las nuevas tecnologías en la producción de información. Situación de trabajadoras/es de los medios.\
+    Persecución ideológica. ',
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',
+    map:'-32.9439334,-60.6533037',
+    datetime:1475960400
+  },
+  {
+    title: 'Mujeres y medioambiente',
+    description: 'Contribuciones de las mujeres en la defensa del medioambiente y la conservación de los recursos naturales y bienes comunes. Tala indiscriminada, monocultivo, agroquímicos, transgénicos,\
+    contaminación del agua, basureros nucleares, cambio climático, agronegocios, fumigaciones, explotación minera, petrolera, gasífera, acuífera. Consecuencias para la salud. Minas a cielo abierto.\
+    Autorización de los proyectos de investigación o exploración para la obtención de hidrocarburos por fractura hidráulica, fracking. Tratamientos de residuos, papeleras, etc. Consecuencias sobre la vida de la población.\
+    Responsabilidad del Estado. Rol del sistema educativo y de los medios de comunicación. Legislación vigente. Implementación. Los grandes poderes económicos y su injerencia: impunidad para contaminar.\
+    Complicidad política. Reservas naturales de agua dulce. Energía. Estatización, nacionalización. Soberanía nacional. Soberanía alimentaria. Ecología y feminismos. Formas de organización de las mujeres en defensa del medioambiente.\
+    Coordinación de luchas. Represas. Relocalización. Desarraigo. Pérdidas de patrimonio cultural. Pérdida de fuentes laborales genuinas.',
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
+    map:'-32.9439334,-60.6533037',
+    image:'',
+    datetime:1475960400
+  },
+  {
+    title: 'Mujeres y religiones',
+    description: 'Estado, poder y religiones. Estado laico. Libertad de cultos. Apostasía. Injerencia religiosa en el poder judicial, la salud y la educación públicas. Religiones y patriarcado. La opresión de las mujeres en los discursos religiosos.\
+    Estatus de las mujeres en las jerarquías eclesiásticas. Discriminación, violencia contra las mujeres y abusos sexuales en las instituciones religiosas. Injerencia de las religiones en la sexualidad de las mujeres y en la familia.\
+    Vinculación con 17 las necesidades y derechos de las mujeres. Diversidad de ideas y posiciones dentro de las Iglesias. Movimientos religiosos y su relación con otros movimientos. Financiamiento del Estado a las Iglesias. Las ONG y las organizaciones religiosas antiderechos.',
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',
+    map:'32.9505515,-60.6450447',
+    image:'',
+    datetime:1475960400
+  },
+  {
+    title: 'Mujeres y Estado laico',
+    description: 'Estado laico en contraposición a Estado confesional. Patriarcado e Iglesia. Curas y pedofilia. Financiamiento estatal de la Iglesia Católica. Injerencia de la Iglesia en la salud y la educación públicas, la justicia, los organismos de asistencia (orfanatos, centros rehabilitación...), las políticas públicas, la leyes y los poderes del Estado.\
+    Objeción de conciencia y su utilización para obstaculizar el ejercicio de los derechos sexuales y reproductivos. Estado laico y respeto por la libertad religiosa. Apostasía. La lucha de los movimientos de mujeres frente a los mandatos religiosos y patriarcales.',
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
+    map:'-32.9439334,-60.6533037',
+    image:'',
+    datetime:1475960400
+  }
 ]
 
 $(document).ready(function(){
