@@ -69,7 +69,7 @@ var talleres = [
     description: 'Complejidades y contradicciones del concepto de bisexualidad. Experiencias y vivencias. Opresión de género y bisexualidad. Bifobia. Estereotipos y prejuicios.\
      Las identidades colectivas como estrategias políticas. Invisibilización social y dentro del colectivo LGBTTQI. Activismo y estrategias de visibilidad.\
      Heteronormatividad: monogamia obligatoria y maternidad obligatoria. Crítica a las categorías binarias.',
-    ubication: 'Escuela "Tte. Gral. Pablo Richieri", Moreno 965.',   
+    ubication: ' Escuela Normal Superior N° 2 "Juan María Gutiérrez", Córdoba 2084',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -135,7 +135,7 @@ var talleres = [
     Judicialización de los abortos no punibles. Aplicación del “Protocolo para la atención integral de las mujeres con derecho a la interrupción legal del embarazo”.\
     Objeción de conciencia, responsabilidad de los profesionales de la salud. Uso seguro y adecuado del misoprostol. Red de Socorrismos.\
     Consejerías pre y post aborto en hospitales públicos, en locales de partidos y organizaciones. Red de Profesionales de la Salud por el Derecho a Decidir.',
-    ubication: 'CEL (20), Av. Pellegrini 1352',   
+    ubication: 'Facultad de Humanidades y Artes UNR, Entre Rios 758',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -153,20 +153,18 @@ var talleres = [
     title: 'Mujeres frente a la pérdida de hijas/os y familiares',
     description: 'Estrategias para la elaboración de la pérdida y del duelo. Conformación de grupos de apoyo y de autoayuda. El rol del Estado y de las instituciones de la salud y de la justicia.\
      Diversas causas de la pérdida: enfermedad, accidente de tránsito, violencia vial, gatillo fácil, represión policial, violencia social. Relación de los grupos con otros movimientos sociales y de mujeres.',
-    ubication: 'FALTANTE',   
+    ubication: 'ISET 18 (10), Moreno 949.',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
   },
-
-  /* FALTA UBICACION DE TALLER 16 */
   {
     title: 'Mujeres y discapacidad',
     description: 'Discriminación: causas y consecuencias. Responsabilidad social y estatal para la integración e igualdad de oportunidades: laboral, educativa, social, económica, deportiva...\
     Aceptación de la diversidad. Estrategias de articulación nacional de estos reclamos. Diferentes tipos de discapacidad. Sexualidad en la discapacidad. Asistencia, pensión y seguro de vida.\
     Centros de rehabilitación. Talleres. Tecnología y capacitación. Educación especial. Legislación: Ley nacional 24.314 y leyes provinciales. Infraestructuras necesarias. Cobertura de obras sociales.\
     Adhesiones de las obras sociales a la ley nacional. Observatorios de discapacidad y sus funciones.',
-    ubication: 'Facultad de Humanidades y Artes UNR (33), Entre Ríos 758.',   
+    ubication: 'Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -236,7 +234,7 @@ var talleres = [
     Evidencia científica. Presupuestos para investigación científica y académica. Trabas legales para el uso de cannabis medicinal. Estrategias para su uso terapéutico e industrial.\
     Experiencias de lucha de mujeres enfermas, madres y familiares de enfermas/os por la despenalización, la legalización y la regulación del cultivo, el uso y el consumo de cannabis medicinal.\
     Experiencias de las organizaciones y los movimientos cannábicos. Debates sobre la despenalización, legalización y regulación del consumo de sustancias psicoactivas. Uso de cannabis en el mundo.',
-    ubication: 'CEL (20), Av. Pellegrini 1352',   
+    ubication: ' Facultad de Medicina UNR, Santa Fe 3100',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -246,7 +244,7 @@ var talleres = [
     description: 'Salud y terapias alternativas a través del tiempo. Homeopatía y herboristería. Terapias florales. Gemoterapia. Hidroterapia y aguas energizantes. Disciplinas que destacan la unidad cuerpo y alma.\
     El poder mental y espiritual sobre la salud física. Digitopuntura. Acupuntura. Expresión corporal. Reflexología. Musicoterapia. Reiki. Cannabis medicinal: indicaciones y formas de uso; cultivo; proyecto de ley.\
     Las disciplinas alternativas como apoyo y complemento de la medicina tradicional. Formación de profesionales de la salud. Registro corporal. Roles, mandatos y sus múltiples incidencias en el cuerpo.',
-    ubication: 'CEL (20), Av. Pellegrini 1352',   
+    ubication: 'Facultad de Medicina UNR, Santa Fe 3100',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -398,7 +396,7 @@ var talleres = [
     Acceso a información y asesoramiento médico, asistencial y jurídico. Cuidado del cuerpo, la salud psicofísica integral y la salud sexual: anticoncepción, prevención de enfermedades de transmisión sexual y de adicciones.\
     Pareja, maternidad y familia. Acceso a la vivienda. Adultas mayores. Proyectos de ley que buscan regular el trabajo sexual autónomo. 9 Articulación con movimientos feministas y sociales.\
     Experiencias internacionales. Agenda política.',
-    ubication: 'CEL, Av. Pellegrini 1352',   
+    ubication: 'Facultad de Humanidades y Artes UNR, Entre Rios 758',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -420,7 +418,7 @@ var talleres = [
     Derechos humanos de las mujeres refugiadas, inmigrantes africanas y afrodescendientes. Realidad de las mujeres afro en sus comunidades y en la sociedad. Violencia institucional.\
     Persecución y hostigamiento de las fuerzas de seguridad. Precarización laboral. Racismo, discriminación y estigmatización. Hipersexualización de los cuerpos de las mujeres en las comunidades afro.\
     Violencia y acoso. Acceso a la atención de la salud sexual y reproductiva. Experiencias y estrategias de lucha de las organizaciones de las comunidades afroargentinas, afrodescendientes y africanas.',
-    ubication: 'CEL, Av. Pellegrini 1352',   
+    ubication: 'Facultad de Humanidades y Artes UNR, Entre Rios 758',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -431,7 +429,7 @@ var talleres = [
     El espacio público y privado: desigualdades y diferencias en el uso del espacio urbano. Desalojos. El rol del Estado en las políticas públicas y la planificación urbana.\
     La participación de las mujeres en la construcción del hábitat. Análisis del espacio público desde una perspectiva de género. Gestión de un medio ambiente saludable.\
     Ciudades seguras, inclusivas y sin violencia hacia las mujeres. Participación de las mujeres en la elaboración de políticas urbanas. Intervenciones y experiencias.',
-    ubication: 'Facultad de Humanidades y Artes UNR, Entre Ríos 758.',   
+    ubication: ' Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -442,7 +440,7 @@ var talleres = [
     Reconocimiento del trabajo de las mujeres en el 10 ámbito rural. Desprotección social. Acceso a la salud, vivienda y educación. Salud sexual y reproductiva. Violencia hacia las mujeres y las niñas.\
     Derecho de pernada y “chineo”. Tenencia y propiedad de la tierra. Reforma agraria. Concentración de la producción. Responsabilidad del Estado. Soberanía alimentaria.\
     Ley de extranjerización de tierras y nuevos proyectos. Concentración. Uso de agrotóxicos. Participación y protagonismo de las mujeres en las organizaciones campesinas y rurales.',
-    ubication: 'Facultad de Humanidades y Artes UNR, Entre Ríos 758.',   
+    ubication: 'Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -453,7 +451,7 @@ var talleres = [
     Suspensión de las importaciones de productos de nuestras economías regionales. Protección de la producción nacional. Precio mínimo sostén y obligatorio. Soberanía biotecnológica. Democratización de la tierra.\
     Suspensión de desalojos. Titularización. Creación de fondos de estímulo a la producción. Necesidad de fortalecimiento de la chacra mixta. Desaliento de la agricultura industrial. Reforma agraria.\
     Monocultivo-agronegocios. Nacionalización del comercio exterior. Banco de tierras. Decreto 820/2016, que modifica la ley que limita la compra de tierras por parte de extranjeros.',
-    ubication: 'Facultad de Humanidades y Artes UNR, Entre Ríos 758.',   
+    ubication: 'Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -463,7 +461,7 @@ var talleres = [
     description: 'Protagonismo de las mujeres en las organizaciones productivas. Experiencias en economías solidarias. Formas de organización y producción. Microemprendimientos. Cooperativismo. Mutualismo.\
     Precarización del empleo. La participación de las mujeres en la economía popular: cartoneras, vendedoras ambulantes, manteras, recicladoras, artesanas, feriantes, trabajadoras de programas sociales. Autogestión.\
     Impacto de los tarifazos y la inflación.',
-    ubication: 'Facultad de Humanidades y Artes UNR, Entre Ríos 758.',   
+    ubication: ' Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -473,7 +471,7 @@ var talleres = [
     description: 'Fenómenos de quiebre, cierre y vaciamiento de fábricas. Participación de las mujeres, autogestión y control de las mujeres de las fábricas recuperadas. Distintas formas de organización y producción. Estatización.\
     Expropiación. Análisis y propuestas de legislación. Impactos de los tarifazos y la inflación. Consecuencias en las familias. Experiencias de lucha de las mujeres. Vinculación con otros movimientos y organizaciones barriales, culturales y partidos políticos.\
     Efectos de la participación comunitaria en la vida de las mujeres.',
-    ubication: 'Facultad de Humanidades y Artes UNR, Entre Ríos 758.',   
+    ubication: 'Centro Educativo Latinoamericano, Av. Pellegrini 1352',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -576,7 +574,7 @@ var talleres = [
     Financiamiento y presupuesto educativo. Leyes vigentes. Relación proceso de enseñanza aprendizaje y situación socio-económica. La escuela como caja de resonancia de problemáticas sociales. Las múltiples funciones de las docentes.\
     Violencia en las escuelas, violencia hacia las mujeres. Géneros, salud y trabajo. Jubilaciones. Relaciones entre la institución educativa y la comunidad. Luchas docentes y estudiantiles. Formas de organización gremial. Rol de las organizaciones estudiantiles.\
     El sistema educativo como instrumento de liberación o de dominación. Los nuevos formatos escolares y las condiciones laborales de las/os docentes. Imposiciones ideológicas en las escuelas públicas.',
-    ubication: 'Facultad de Medicina UNR, Santa Fe 3100.',   
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -585,7 +583,7 @@ var talleres = [
     title: 'Mujeres y Educación Sexual Integral',
     description: 'Informe del estado de situación de ESI en los diferentes niveles educativos. Diagnóstico de su implementación y su aplicación en los todos los estamentos estatales: nación, provincias, municipalidades y CABA, en la gestión pública estatal y privada.\
     Estrategias para su defensa y profundización. Producciones a compartir.',
-    ubication: 'Facultad de Medicina UNR, Santa Fe 3100.',   
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -597,7 +595,7 @@ var talleres = [
     Formación de profesionales. Prácticas preprofesionales. Cátedras paralelas. Restricciones al ingreso, permanencia, egreso y deserción. Luchas universitarias, articulación. Democratizaciones de la educación superior y de los órganos de cogobierno.\
     Rol de las organizaciones estudiantiles. Docentes y no docentes. Situación laboral y salarial de las/os trabajadoras/os de las universidades. Pasantías. Políticas de investigación y extensión en beneficio de los sectores vulnerabilizados. Propuestas educativas hacia adultas mayores.\
     14 Áreas y centros de estudios de la mujer en ámbitos universitarios. Injerencia y financiación del sector privado. Venta de servicios.',
-    ubication: 'Facultad de Medicina UNR, Santa Fe 3100.',   
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -611,7 +609,7 @@ var talleres = [
     Estado actual de los centros de investigación y organismos científicos. Precarización laboral en las ciencias. Representación gremial. Movimientos autoconvocados.\
     Propuesta del Movimiento de Mujeres del Kurdistán sobre la creación de “una ciencia de la mujer” (JinelojÏ). Cuerpo de conocimientos en construcción. Experiencia histórica.\
     Crítica al sistema de la modernidad capitalista y el patriarcado, las mujeres en pie contra su reproducción.',
-    ubication: 'FALTANTE',   
+    ubication: 'Escuela Normal Superior N° 1 "Dr. Nicolás Avellaneda", Corrientes 1191.',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475960400
@@ -735,7 +733,7 @@ $(document).ready(function(){
   talleres.map(function(taller, index){
     var date = new Date(taller.datetime * 1000);
     var months = ['ENE', 'FEB', 'MAR','ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
-    console.log(date);
+    var address = taller.ubication.split(',')[taller.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
     $(".container").append('\
       <div class="demo-card-wide mdl-card mdl-shadow--2dp autorender">\
               <div class="mdl-card__title" style="background-image: url(\'img/talleres/Taller' + (index + 1) + '.jpg\'); background-repeat: no-repeat">\
@@ -746,7 +744,7 @@ $(document).ready(function(){
                 ' + taller.description + '\
               </div>\
               <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="talleres.html">\
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="talleres.html" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=no\');">\
                   Ubicacion\
                 </a>\
               </div>\
