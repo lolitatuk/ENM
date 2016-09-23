@@ -744,7 +744,7 @@ $(document).ready(function(){
                 ' + taller.description + '\
               </div>\
               <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="alert(address)">\
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
                   Ubicacion\
                 </a>\
               </div>\
@@ -757,7 +757,3 @@ $(document).ready(function(){
     ')
   })
 })
-
-function openMap(address) {
-  cordova.InAppBrowser.open('https://www.google.com.ar/maps/place/' + address, '_blank', 'location=yes');
-}

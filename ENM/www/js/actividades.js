@@ -1,4 +1,4 @@
-var talleres = [
+var activitities = [
   {
     title: 'Acto de Apertura del XXXI Encuentro Nacional de Mujeres.',
     description: 'Acto de Apertura.',
@@ -61,26 +61,26 @@ var talleres = [
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475971200
-  }
-   
+  }  
 ]
 
+
 $(document).ready(function(){
-  talleres.map(function(taller, index){
-    var date = new Date(taller.datetime * 1000);
+  activitities.map(function(activity, index){
+    var date = new Date(activity.datetime * 1000);
     var months = ['ENE', 'FEB', 'MAR','ABR', 'MAY', 'JUN', 'JUL', 'AGO', 'SEP', 'OCT', 'NOV', 'DIC'];
-    var address = taller.ubication.split(',')[taller.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
+    var address = activity.ubication.split(',')[activity.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
     $(".container").append('\
       <div class="demo-card-wide mdl-card mdl-shadow--2dp autorender">\
               <div class="mdl-card__title" style="background-image: url(\'img/agenda/act' + (index + 1) + '.jpg\'); background-repeat: no-repeat">\
                 <div class="degrade"></div>\
-                <h2 class="mdl-card__title-text">' + taller.title + '</h2>\
+                <h2 class="mdl-card__title-text">' + activity.title + '</h2>\
               </div>\
               <div class="mdl-card__supporting-text">\
-                ' + taller.description + '\
+                ' + activity.description + '\
               </div>\
               <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="alert(address)">\
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
                   Ubicacion\
                 </a>\
               </div>\
@@ -93,7 +93,3 @@ $(document).ready(function(){
     ')
   })
 })
-
-function openMap(address) {
-  cordova.InAppBrowser.open('https://www.google.com.ar/maps/place/' + address, '_blank', 'location=yes');
-}
