@@ -7,17 +7,9 @@ var activitities = [
     datetime:1475935200
   },
   {
-    title: 'Almuerzo',
-    description: 'En nuestra delegación preparamos centralmente las comidas adaptándonos a las actividades que surgen del propio Encuentro. ',
-    ubication: '',
-    map:'-32.9439334,-60.6533037',
-    datetime:1475942400
-    /* FALTA UBICACION DE ALMUERZO */
-  },
-  {
     title: 'Inicio de los talleres',
     description: 'Desarrollo de los talleres en los lugares asignados hasta las 18hs',
-    ubication: '',   
+    ubication: 'takemetotalleres',   
     map:'-32.9439334,-60.6533037',
     image:'',
     datetime:1475949600
@@ -32,7 +24,7 @@ var activitities = [
     /* FALTA DESC Y UBICACION */
   },
   {
-    title: 'Actividad Cultural: “Nenina” De Luciana Morcillo, Iván Moschner y Olga Viglieca.> ',
+    title: 'Actividad Cultural: “Nenina” De Luciana Morcillo, Iván Moschner y Olga Viglieca.',
     description: 'TEATRO. \"En una habitación de la casa de su abuela Milena graba un mensaje para Nenina. Su intención es hacerle llegar ese video para que sepa que no está sola, que muchos luchan por ella.\
     La obra nos invita a reflexionar sobre la libertad, la locura, los derechos de la mujer, desde una mirada declaradamente crítica del sistema en el que vivimos.\"   <br /> <br />  <br /> Crítica en Revista Ñ: <br /> <br />\
     LA EMOCION COMO GESTO POLITICO. <br /> Una obra de corte intimista reflexiona sobre el caso Romina Tejerina y, sin caer en el registro panfletario, apunta al blanco de los sentimientos.\
@@ -55,13 +47,51 @@ var activitities = [
     datetime:1475964000
   },
   {
-    title: 'Cena',
-    description: 'En nuestra delegación preparamos centralmente las comidas adaptándonos a las actividades que surgen del propio Encuentro.',
-    ubication: ' Escuela "Tte. Gral. Pablo Richieri", Moreno 965.',   
+    title: 'Actividad Cultural: \“Palomas\” De Patricia Barone y Javier González',
+    description: 'La presentación contará con la interpretación del tema ¨Palomas¨ (Música: Javier González/Letra: Patricia Barone), vinculado a la urgente temática de ¨violencia de género¨. Si en 1991, compusimos ¨Ser mina flor de cardo¨, que daba cuenta del\
+    nuevo lugar que la mujer empezaba a ocupar en la sociedad, hoy es el tiempo de este nuevo testimonio, en la lucha enorme que la mujer sostiene, para seguir avanzando hacia mejores estándares de ¨humanidad¨.',
+    ubication: 'Centro Cultural San Lorenzo, San Carlos 1901-1999',
+    map:'32.9505515,-60.6450447',
+    image:'',
+    datetime:1475969400
+  },
+  {
+    title: 'Inicio de los talleres',
+    description: 'Funcionamiento de los talleres en los lugares asignados hasta las 11:30hs.',
+    ubication: '',
+    map:'-32.9439334,-60.6533037',
+    datetime:1476014400
+  },
+  {
+    title: 'Acto y foto de la delegación nacional del Plenario de Trabajadoras',
+    description: '',
+    ubication: ' Monumento Histórico Nacional a la Bandera, Santa Fe 581',   
     map:'-32.9439334,-60.6533037',
     image:'',
-    datetime:1475971200
-  }  
+    datetime:1476025200
+  },
+  {
+    title: 'Continuacion de los talleres,',
+    description: 'Funcionamiento de los talleres en los lugares asignados hasta las 17:30hs.',
+    ubication: '',
+    map:'-32.9439334,-60.6533037',
+    datetime:1476036000
+  },
+  {
+    title: 'Movilización del Encuentro Nacional de Mujeres',
+    description: '¡Marcha con el Plenario de Trabajadoras!',
+    ubication: '',
+    map:'-32.9439334,-60.6533037',
+    datetime:1476046800
+  },
+  {
+    title: 'Acto de cierre',
+    description: '',
+    ubication: 'Monumento Histórico Nacional a la Bandera, Santa Fe 581.',
+    map:'32.9505515,-60.6450447',
+    image:'',
+    datetime:1476108000
+  }
 ]
 
 

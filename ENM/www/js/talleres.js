@@ -748,11 +748,7 @@ $(document).ready(function(){
                   Ubicacion\
                 </a>\
               </div>\
-              <div class="mdl-card__menu datetime">\
-                <span class="date">' + date.getDate() + ' - ' + months[date.getMonth()] + '</span>\
-                <span class="hour">' + date.getHours() + (date.getMinutes() !== 0 ? ':' + date.getMinutes() : '') + ' HRS </span>\
-                  </div>\
-            </div>\
+                          </div>\
           </div>\
     ')
   })
