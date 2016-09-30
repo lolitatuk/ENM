@@ -101,14 +101,14 @@ $(document).ready(function(){
                 ' + activity.description + '\
               </div>\
               <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
+                <a class="pull-left mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
                   Ubicacion\
                 </a>\
+                <div class="datetime">\
+                  <span class="date">' + date.getDate() + ' - ' + months[date.getMonth()] + '</span>\
+                  <span class="hour">' + date.getHours() + (date.getMinutes() !== 0 ? ':' + date.getMinutes() : '') + ' HRS </span>\
+                </div>\
               </div>\
-              <div class="mdl-card__menu datetime">\
-                <span class="date">' + date.getDate() + ' - ' + months[date.getMonth()] + '</span>\
-                <span class="hour">' + date.getHours() + (date.getMinutes() !== 0 ? ':' + date.getMinutes() : '') + ' HRS </span>\
-                  </div>\
             </div>\
           </div>\
     ')

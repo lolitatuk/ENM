@@ -736,20 +736,19 @@ $(document).ready(function(){
     var address = taller.ubication.split(',')[taller.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
     $(".container").append('\
       <div class="demo-card-wide mdl-card mdl-shadow--2dp autorender">\
-              <div class="mdl-card__title" style="background-image: url(\'img/talleres/Taller' + (index + 1) + '.jpg\'); background-repeat: no-repeat">\
-                <div class="degrade"></div>\
-                <h2 class="mdl-card__title-text">' + taller.title + '</h2>\
-              </div>\
-              <div class="mdl-card__supporting-text">\
-                ' + taller.description + '\
-              </div>\
-              <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
-                  Ubicacion\
-                </a>\
-              </div>\
-                          </div>\
-          </div>\
+        <div class="mdl-card__title" style="background-image: url(\'img/talleres/Taller' + (index + 1) + '.jpg\'); background-repeat: no-repeat;">\
+          <div class="degrade"></div>\
+          <h2 class="mdl-card__title-text">' + taller.title + '</h2>\
+        </div>\
+        <div class="mdl-card__supporting-text">\
+          ' + taller.description + '\
+        </div>\
+        <div class="mdl-card__actions mdl-card--border">\
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open(\'https://www.google.com.ar/maps/place/' + address + '\', \'_blank\', \'location=yes\');">\
+            Ubicacion\
+          </a>\
+        </div>\
+      </div>\
     ')
   })
 })

@@ -47,7 +47,7 @@ $(document).ready(function(){
     var address = material.ubication.split(',')[material.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
     $(".sliderPages").append('\
       <div class="demo-card-wide mdl-card mdl-shadow--2dp autorender sliderPage">\
-              <div class="mdl-card__title" style="background-image: url(\'img/agenda/act' + (index + 1) + '.jpg\'); background-repeat: no-repeat">\
+              <div class="mdl-card__title" style="background-image: url(\'img/materiales/mat' + (index + 1) + '.jpg\'); background-repeat: no-repeat">\
                 <div class="degrade"></div>\
                 <h2 class="mdl-card__title-text">' + material.title + '</h2>\
               </div>\

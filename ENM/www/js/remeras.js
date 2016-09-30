@@ -85,18 +85,9 @@ $(document).ready(function(){
     var address = remeras.ubication.split(',')[remeras.ubication.split(',').length - 1].replace('.', '').replace(' ', '+') + ',+Rosario+Santa+Fe,+Argentina';
     $(".sliderPages").append('\
       <div class="demo-card-wide mdl-card mdl-shadow--2dp autorender sliderPage">\
-              <div class="mdl-card__title">\
-                <img href="img/remeras/Remera' + (index + 1) + '.jpg"/>\              
+              <div class="mdl-card__title" style="background-image: url(\'img/remeras/Remera' + (index + 1) + '.jpg\'); background-repeat: no-repeat; height:' + $(window).width() + 'px;">\
                 <div class="degrade"></div>\
                 <h2 class="mdl-card__title-text">' + remeras.title + '</h2>\
-              </div>\
-              <div class="mdl-card__supporting-text">\
-                ' + remeras.description + '\
-              </div>\
-              <div class="mdl-card__actions mdl-card--border">\
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href=\'' + remeras.title.toLowerCase() + '.html\'">\
-                  Ver Más\
-                </a>\
               </div>\
             </div>\
           </div>\
