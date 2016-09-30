@@ -126,9 +126,14 @@ paper-fab {
   background-image: url('../img/actividades.jpg');
 }
 
-.demo-card-wide.mdl-card.mdl-shadow--2dp {
+.demo-card-wide.mdl-card.mdl-shadow--2dp{ 
   margin-top: 8px;
 }
+
+.materiales .mdl-card__title{
+  background-image: url('../img/materiales.jpg');
+}
+
 
 h2 {
   color: white !important;
