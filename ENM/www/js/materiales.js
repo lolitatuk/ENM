@@ -31,7 +31,7 @@ var materiales = [
     datetime:1475964000
   },
   {
-    title: 'Cuadernos',
+    title: 'Calendarios',
     description: 'Funcionamiento de los talleres en los lugares asignados hasta las 11:30hs.',
     ubication: '',
     map:'-32.9439334,-60.6533037',
