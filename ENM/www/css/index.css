@@ -122,18 +122,6 @@ paper-fab {
   background-image: url('../img/talleres.jpg');
 }
 
-.dateTime {
-  font-size: 12px;
-  letter-spacing: 0;
-  margin: 0 0 16px;
-  margin-top: 74px;
-  text-align: center;
-  color: orange;
-  background-color: white;
-  border: orange; 
-  position: fixed;
-}
-
 .actividades .mdl-card__title {
   background-image: url('../img/actividades.jpg');
 }
@@ -209,4 +197,16 @@ h2 {
 
 .logopdt {
   padding-top: 20px;
+}
+
+.sign {
+  font-size: 12px;
+  letter-spacing: 0;
+  margin: 0 0 16px;
+  margin-top: 74px;
+  text-align: center;
+  color: orange;
+  background-color: white;
+  border: orange; 
+  position: fixed;
 }

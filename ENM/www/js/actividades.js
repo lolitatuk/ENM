@@ -47,15 +47,6 @@ var activitities = [
     datetime:1475964000
   },
   {
-    title: 'Actividad Cultural: \“Palomas\” De Patricia Barone y Javier González',
-    description: 'La presentación contará con la interpretación del tema ¨Palomas¨ (Música: Javier González/Letra: Patricia Barone), vinculado a la urgente temática de ¨violencia de género¨. Si en 1991, compusimos ¨Ser mina flor de cardo¨, que daba cuenta del\
-    nuevo lugar que la mujer empezaba a ocupar en la sociedad, hoy es el tiempo de este nuevo testimonio, en la lucha enorme que la mujer sostiene, para seguir avanzando hacia mejores estándares de ¨humanidad¨.',
-    ubication: 'Centro Cultural San Lorenzo, San Carlos 1901-1999',
-    map:'32.9505515,-60.6450447',
-    image:'',
-    datetime:1475969400
-  },
-  {
     title: 'Inicio de los talleres',
     description: 'Funcionamiento de los talleres en los lugares asignados hasta las 11:30hs.',
     ubication: '',
