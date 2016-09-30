@@ -15,12 +15,13 @@ var activitities = [
     datetime:1475949600
   },
   {
-    title: 'Acto',
-    description: '',
+    title: 'Acto por la Anulación de la condena de Belén',
+    description: ' Previa presentación del libro de Soledad Deza\
+                \"Libertad para Belen. Grito nacional\" <br/> Soledad es abogada del caso Belén y militante de Católicas por el derecho a decidir.',
     ubication: '',
     map:'32.9505515,-60.6450447',
     image:'',
-    datetime:1475964000
+    datetime:1475962200000
     /* FALTA DESC Y UBICACION */
   },
   {
