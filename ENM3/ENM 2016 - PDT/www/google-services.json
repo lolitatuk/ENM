@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "372008345017",
+    "firebase_url": "https://enm-2016.firebaseio.com",
+    "project_id": "enm-2016",
+    "storage_bucket": "enm-2016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372008345017:android:e46b2b25529fefdb",
+        "android_client_info": {
+          "package_name": "com.partidoobrero.enm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372008345017-tmm02qiiid9df0j51i66hlutc2inv2n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40-gn__rwze4hCqnFE7Hh0Axn2RFYRFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

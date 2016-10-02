@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/material.indigo-pink.min.css" />
+    <title>ENM XXXI</title>
+  </head>
+
+  <body unresolved>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">ENM XXXI</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="logopdt" src="img/logopdt.png" width="100%" />
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" onclick="cordova.InAppBrowser.open('https://www.facebook.com/plenariodemujerestrabajadoras', '_blank', 'location=yes');">Facebook</a>
+          <a class="mdl-navigation__link" onclick="cordova.InAppBrowser.open('https://twitter.com/pletrabajadoras', '_blank', 'location=yes');">Twitter</a>
+          <a class="mdl-navigation__link" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/d/embed?mid=1pMn79ZLZKIn545od7qQSFCJnFp0', '_blank', 'location=yes');">Viaja con nosotras - Mapa de salidas</a>
+          <a class="mdl-navigation__link" onclick="cordova.InAppBrowser.open('https://www.google.com/maps/d/embed?mid=1hdgrYkSqen1Y900f2OrVbt9xcog', '_blank', 'location=yes');">Delegaciones del PDT - Mapa</a>
+        </nav>
+      </div>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="app">
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp enm">
+              <div class="mdl-card__title">
+                <div class="degrade"></div>
+                <h2 class="mdl-card__title-text">Nuestro Programa</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Desmantelamiento de las redes de trata / Separación de la iglesia del estado / Aborto legal seguro y gratuito / Abajo el ajuste de macri y los goberna dores / Salario igual a la canasta familiar / Basta de desocupación y precarización laboral
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="cordova.InAppBrowser.open('http://www.po.org.ar/prensaObrera/online/mujer', '_blank', 'location=yes');" href="#">
+                  Saber más
+                </a>
+              </div>
+              <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div>
+            </div>
+
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp talleres">
+              <div class="mdl-card__title">
+                <div class="degrade"></div>
+                <h2 class="mdl-card__title-text">Talleres</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Enterate de los talleres que podés participar, su temática y como llegar!
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="talleres.html">
+                  Ver todos los talleres
+                </a>
+              </div>
+              <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp actividades">
+              <div class="mdl-card__title">
+                <div class="degrade"></div>
+                <h2 class="mdl-card__title-text">Agenda</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Enterate de las actividades que podés participar, su temática y como llegar!
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="actividades.html">
+                  Ver agenda y actividades culturales
+                </a>
+              </div>
+              <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div>
+            </div>
+
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp materiales">
+              <div class="mdl-card__title">
+                <div class="degrade"></div>
+                <h2 class="mdl-card__title-text">Materiales PDT </h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Enterate de los materiales que podés comprar
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="materiales.html">
+                  Ver materiales
+                </a>
+              </div>
+              <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div>
+            </div>
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp Cancionero">
+              <div class="mdl-card__title">
+                <div class="degrade"></div>
+                <h2 class="mdl-card__title-text">Cancionero</h2>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Conocé todas las canciones del plenario de trabajadoras
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="cancionero.html">
+                  Ver todos las canciones
+                </a>
+              </div>
+              <div class="mdl-card__menu">
+                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                  <i class="material-icons">share</i>
+                </button>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/material.min.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+  </body>
+
+</html>
