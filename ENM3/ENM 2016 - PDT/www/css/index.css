@@ -273,3 +273,6 @@ h2 {
   padding: 2%;
   border: 1px solid white;
 }
+.demo-card-wide.mdl-card.mdl-shadow--2dp.karaoke .mdl-card__title {
+  background-image: url('../img/megafono.png');
+}
