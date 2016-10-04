@@ -8,7 +8,7 @@ var materiales = [
   },
   {
     title: 'Publicaciones',
-    description: '',
+    description: 'Conocé nuestras publicaciones',
     ubication: '',   
     map:'-32.9439334,-60.6533037',
     image:'',
@@ -23,7 +23,7 @@ var materiales = [
     datetime:1475964000
   },
   {
-    title: 'Bolsas',
+    title: 'Posters',
     description: '', 
     ubication: '',  
     map:'-32.9439334,-60.6533037',

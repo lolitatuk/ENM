@@ -138,6 +138,9 @@ paper-fab {
   background-image: url('../img/materiales.jpg');
 }
 
+.cancionero .mdl-card__title{
+  background-image: url('../img/cancionero.jpg');
+}
 
 h2 {
   color: white !important;
@@ -276,4 +279,7 @@ h2 {
   background-color: rgb(255,87,34);
   padding: 2%;
   border: 1px solid white;
+}
+.demo-card-wide.mdl-card.mdl-shadow--2dp.karaoke .mdl-card__title {
+  background-image: url('../img/megafono.png');
 }

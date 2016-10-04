@@ -18,11 +18,18 @@ var activitities = [
     title: 'Acto por la Anulación de la condena de Belén',
     description: ' Previa presentación del libro de Soledad Deza\
                 \"Libertad para Belen. Grito nacional\" <br/> Soledad es abogada del caso Belén y militante de Católicas por el derecho a decidir.',
-    ubication: '',
+    ubication: 'Escuela normal Nro. 2, Córdoba 2084.',
     map:'32.9505515,-60.6450447',
     image:'',
     datetime:1475962200000
-    /* FALTA DESC Y UBICACION */
+  },
+  {
+    title: 'Plenario nacional de la agrupación 1969',
+    description: '',
+    ubication: 'Plaza San Martin, Plaza San Martin.',
+    map:'32.9505515,-60.6450447',
+    image:'',
+    datetime:1475962200000
   },
   {
     title: 'Actividad Cultural: “Nenina” De Luciana Morcillo, Iván Moschner y Olga Viglieca.',
@@ -45,7 +52,7 @@ var activitities = [
     ubication: 'El Espiral, Ituzaingo 1719',  
     map:'-32.9439334,-60.6533037',
     image:'',
-    datetime:1475964000
+    datetime:1475971200
   },
   {
     title: 'Inicio de los talleres',
