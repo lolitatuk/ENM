@@ -114,6 +114,10 @@ paper-fab {
   position: relative;
 }
 
+.Cancionero .mdl-card__title {
+  background-image: url('../img/cancionero.jpg');
+}
+
 .enm .mdl-card__title {
   background-image: url('../img/portada.jpg');
 }
