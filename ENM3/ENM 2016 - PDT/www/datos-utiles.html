@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/material.indigo-pink.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <title>ENM XXXI</title>
+  </head>
+
+  <body unresolved>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+        <a href="index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+          <!-- Title -->
+          <span class="mdl-layout-title">DATOS ÚTILES</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+        </div>
+      </header>
+      <div class="container datos-utiles">
+        <b>Datos útiles para asistir al ENM de Rosario:</b>
+
+        <p class="accordeon">
+          <b>¿Qué es el XXXI ENM?</b></br /></br />
+
+          Desde 1986 se reúnen anualmente miles de mujeres discutiendo 65 temáticas diferentes
+          referidas a sus intereses: desde la problemática de la trata de personas, pasando por el aborto
+          legal, la situación de la mujer en el mercado laboral o la relación de las mujeres con el medio
+          ambiente o la lucha contra el ajuste y el tarifazo.
+        </p>
+
+        <p class="accordeon">
+          <b>¿Quién dirige el ENM?</b><br /><br />
+
+          El ENM es un ámbito más que propicio para desplegar una enorme agitación política y social
+          para la organización de las demandas de las mujeres trabajadoras, que no está exento de un
+          debate político sobre cuáles son las mejores perspectivas para el movimiento. La Comisión
+          Organizadora desde hace años es monopolizada en programa y método por sectores que
+          frenan cualquier iniciativa de lucha y cuyo eje central es la defensa de sus espacios políticos y
+          de la orientación de los gobiernos a los que pertenecen. En este caso los sectores que
+          gobiernan la provincia de Santa Fe. Desde nuestra organización concurrimos al ENM
+          denunciando el rol que cumplen al interior del movimiento estos sectores que buscan la
+          desmovilización y que intentan quitar a las mujeres una perspectiva de organización y lucha
+          independiente.
+        </p>
+
+        <p class="accordeon">
+          <b>Dónde dormimos?</b><br /><br />
+
+          En escuelas: prepárate bolsa de dormir, colchón inflable o aislantes.
+        </p>
+
+        <p class="accordeon">
+          <b>Cómo comemos?</b><br /><br />
+
+          En nuestra delegación preparamos centralmente desayunos y comidas adaptándonos a las actividades que surgen del propio Encuentro.
+        </p>
+
+        <div class="accordeon">
+          <b>Para tener en cuenta</b><br /><br />
+
+          <ul>
+            <li>El clima va a rondar entre los 10 grados de mínima y puede llegar a los 25 de temperatura máxima.</li>
+            <li>Traé calzado y ropa cómoda porque las jornadas son extensas.</li>
+            <li>Trae cargador para el celular y zapatilla para poder enchufarlo en las escuelas.</li>
+          </ul>
+        </div>
+      </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/material.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $(".accordeon").click(function() {
+          $(".accordeon").removeClass("expanded");
+          $(this).addClass("expanded");
+        })
+      })
+    </script>
+    <script type="text/javascript" src="js/materiales.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+  </body>
+
+</html>

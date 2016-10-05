@@ -118,6 +118,10 @@ paper-fab {
   background-image: url('../img/cancionero.jpg');
 }
 
+.datos-utiles .mdl-card__title {
+  background-image: url('../img/datos-utiles.jpg');
+}
+
 .enm .mdl-card__title {
   background-image: url('../img/portada.jpg');
 }
@@ -282,4 +286,28 @@ h2 {
 }
 .demo-card-wide.mdl-card.mdl-shadow--2dp.karaoke .mdl-card__title {
   background-image: url('../img/megafono.png');
+}
+
+.container.datos-utiles {
+  margin-top: 90px;
+}
+
+.container.datos-utiles .accordeon {
+  height: 23px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: white;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  border: 1px solid rgb(255,87,34);
+  transition: height 1s ease;
+}
+
+.container.datos-utiles > b {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.accordeon.expanded {
+  height: auto !important;
 }

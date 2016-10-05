@@ -9,6 +9,7 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
+        alert(1);
         $.ajax({
           type: "GET",
           dataType: "json",
@@ -31,7 +32,10 @@ var app = {
                     </a>\
                 ')
             }
-          }
+          },
+          error: function(XMLHttpRequest, textStatus, errorThrown) { 
+            alert("Status: " + textStatus); alert("Error: " + errorThrown); 
+          }  
         });
     },
     // deviceready Event Handler
