@@ -23,7 +23,7 @@ var materiales = [
     datetime:1475964000
   },
   {
-    title: 'Posters',
+    title: 'Afiches',
     description: '', 
     ubication: '',  
     map:'-32.9439334,-60.6533037',
@@ -32,6 +32,13 @@ var materiales = [
   },
   {
     title: 'Calendarios',
+    description: 'Funcionamiento de los talleres en los lugares asignados hasta las 11:30hs.',
+    ubication: '',
+    map:'-32.9439334,-60.6533037',
+    datetime:1476014400
+  },
+  {
+    title: 'Pañuelos',
     description: 'Funcionamiento de los talleres en los lugares asignados hasta las 11:30hs.',
     ubication: '',
     map:'-32.9439334,-60.6533037',

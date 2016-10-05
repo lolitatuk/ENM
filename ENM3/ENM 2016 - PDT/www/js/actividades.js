@@ -21,15 +21,21 @@ var activitities = [
     ubication: 'Escuela normal Nro. 2, Córdoba 2084.',
     map:'32.9505515,-60.6450447',
     image:'',
-    datetime:1475962200000
+    datetime:1475964000
   },
   {
     title: 'Plenario nacional de la agrupación 1969',
-    description: '',
+    description: 'PONGAMOS EN PIE UN MOVIMIENTO LGBTI INDEPENDIENTE DEL ESTADO, LA IGLESIA Y LAS PATRONALES, POR TODAS NUESTRAS REIVINDICACIONES: <br/> \
+     -LEY DE INCLUSIÓN LABORAL TRANS. BASTA DE TRAVESTICIDIOS Y CRÍMENES DE ODIO. EL ESTADO ES RESPONSABLE. <br/> \
+     -Justicia por Laura Moyano, Marcela Chocobar, Zoe Quispe, Diana Sacayán y todxs. <br/> \
+     -BASTA DE HOMOLESBOTRANSFOBIA. <br/> \
+     -EDUCACIÓN SEXUAL INTEGRAL. <br/ >\
+     -SEPARACIÓN DE LA IGLESIA Y EL ESTADO. <br/>\
+     -ABAJO EL AJUSTE Y LOS TARIFAZOS',
     ubication: 'Plaza San Martin, Plaza San Martin.',
     map:'32.9505515,-60.6450447',
     image:'',
-    datetime:1475962200000
+    datetime:1475964000
   },
   {
     title: 'Actividad Cultural: “Nenina” De Luciana Morcillo, Iván Moschner y Olga Viglieca.',
